@@ -1,8 +1,11 @@
 # MovieDbFragments
  
-* The project requires an Authentication key to run. The key is injected via the following files in the root directory:
+* The project requires an Authentication key to run. The key is injected via the following files in the root directory as `THE_MOVIE_DB_AUTH_TOKEN={your_api_key}`:
   * secrets.properties
   * secrets.defaults.properties
+ 
+You can get the api key from (or just ask me):
+https://developer.themoviedb.org/reference/intro/getting-started
 
 #
 I developed this project during the summer to explore what’s new and to implement the same set of features using both Fragments and Jetpack Compose, then compare them.
